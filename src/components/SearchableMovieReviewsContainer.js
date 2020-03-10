@@ -34,7 +34,8 @@ class SearchableMovieReviewsContainer extends Component {
   }
   
   handleSearch = (event)=>{
-    this.setState({searchTerm:event.target.value})
+    this.setState({
+      searchTerm:event.target.value})
   }
 
   render() {
