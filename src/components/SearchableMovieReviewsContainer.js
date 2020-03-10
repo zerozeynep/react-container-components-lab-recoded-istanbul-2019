@@ -32,6 +32,10 @@ class SearchableMovieReviewsContainer extends Component {
     event.preventDefault()
     
   }
+  
+  handleSearch = (event)=>{
+    this.setState({reviews:})
+  }
 
   render() {
     return (
