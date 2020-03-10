@@ -17,6 +17,11 @@ class SearchableMovieReviewsContainer extends Component {
          
     }
   }
+  
+  
+  componentDidMount(){
+    
+  }
 
   render() {
     return (
