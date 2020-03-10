@@ -26,6 +26,10 @@ class SearchableMovieReviewsContainer extends Component {
       reviews:json.results
     }))
   }
+  
+  handleSubmit = ()=>{
+    
+  }
 
   render() {
     return (
