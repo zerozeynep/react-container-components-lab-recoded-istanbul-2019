@@ -27,7 +27,9 @@ class SearchableMovieReviewsContainer extends Component {
     }))
   }
   
-  handleSubmit = ()=>{
+  
+  handleSubmit = (event)=>{
+    event.preventDefault()
     
   }
 
