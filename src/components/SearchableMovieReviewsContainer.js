@@ -21,7 +21,10 @@ class SearchableMovieReviewsContainer extends Component {
   
   componentDidMount(){
     fetch(URL+this.state.searchTerm)
-    .then()
+    .then(resp=>resp.json())
+    .then(json=>{
+      
+    })
   }
 
   render() {
