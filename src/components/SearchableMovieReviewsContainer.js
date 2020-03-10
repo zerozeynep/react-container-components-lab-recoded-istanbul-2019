@@ -37,7 +37,7 @@ class SearchableMovieReviewsContainer extends Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-        <input type='text' >
+        <input type='text' onChange={this.handleSearch}>
         </input>
         </form>
       </div>
